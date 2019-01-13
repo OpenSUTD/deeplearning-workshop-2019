@@ -1,3 +1,18 @@
+.jupyter
+.keras
+.ipy*
+.cache
+.local
+.nv
+.config
+
+day_2/train
+day_2/val
+day_2/logs
+day_3/.DS_Store
+cache
+*.pickle
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
