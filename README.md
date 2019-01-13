@@ -1,4 +1,5 @@
-# Deep Learning Workshop (IAP 2019)
+![](images/dl-iap-header.jpg)
+
 This repository contains the material for the Deep Learning Workshop conducted in the IAP 2019. The slides are also available at on [Google Drive](bit.ly/dl-iap-1)
 
 Our recommended way to run the notebooks is to run it in a Docker container. For now, we will also assume that you are using Ubuntu 16.04 or 18.04, and have an NVIDIA GPU card in your computer. Over time, we will add instructions for running the notebooks on [Google Colaboratory](https://colab.research.google.com/).
