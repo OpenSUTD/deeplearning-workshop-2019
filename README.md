@@ -1,10 +1,25 @@
 ![](images/dl-iap-header.jpg)
 
-This repository contains the material for the Deep Learning Workshop conducted in the IAP 2019. The slides are also available at on [Google Drive](bit.ly/dl-iap-1)
+This repository contains the material for the Deep Learning Workshop conducted in the IAP 2019. The slides are also available at on [Google Drive](bit.ly/dl-iap-1) 
 
-Our recommended way to run the notebooks is to run it in a Docker container. For now, we will also assume that you are using Ubuntu 16.04 or 18.04, and have an NVIDIA GPU card in your computer. Over time, we will add instructions for running the notebooks on [Google Colaboratory](https://colab.research.google.com/).
+If you do not already have a workstation set up for Deep Learning, you may want to run the notebooks in [Google Colab](https://colab.research.google.com/). The instructions are not currently complete, but we will add more information in time.
+
+If you have a workstation or cloud instance set up for Deep Learning, our recommended way to run the notebooks is to run it in a Docker container `nvaitc/ai-lab`. For now, we will also assume that you are using Ubuntu 16.04 or 18.04, and have an NVIDIA GPU card in your workstation/instance. 
+
+![](https://img.shields.io/github/license/opensutd/deeplearning-workshop-2019.svg) [![GitHub issues](https://img.shields.io/github/issues/OpenSUTD/deeplearning-workshop-2019.svg)](https://github.com/OpenSUTD/deeplearning-workshop-2019/issues)
 
 ## Using the Notebooks
+
+### A. Google Colab
+
+#### 1. Open Notebook in Colab
+
+1. Proceed to [Google Colab](https://colab.research.google.com) and click the "GitHub" tab.
+2. Enter in the URL of this repository as follows and simply select which notebook you wish to open
+
+![](images/colab_1.jpg)
+
+### B. Workstation / Cloud Instance
 
 #### 1. Setting up CUDA, NVIDIA drivers, and Docker
 
