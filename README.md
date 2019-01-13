@@ -46,19 +46,19 @@ docker pull nvaitc/ai-lab:latest
 #### 3. Download the code labs
 
 ```bash
-git clone https://github.com/OpenSUTD/deeplearning-iap-2019
+git clone https://github.com/OpenSUTD/deeplearning-workshop-2019
 # take note of where you cloned the files to!
-# we will assume it's at /home/USER/deeplearning-iap-2019
+# we will assume it's at /home/USER/deeplearning-workshop-2019
 ```
 
 Alternatively, you may download this repository as a zip file from the GitHub web interface.
 
 #### 4. Start the container and mount the folder
 
-Please change the path `/home/USER/deeplearning-iap-2019` to where-ever you downloaded the files to in **Step 3**.
+Please change the path `/home/USER/deeplearning-workshop-2019` to where-ever you downloaded the files to in **Step 3**.
 
 ```bash
-nvidia-docker run --rm -p 8888:8888 -v /home/USER/deeplearning-iap-2019:/home/jovyan/ nvaitc/ai-lab
+nvidia-docker run --rm -p 8888:8888 -v /home/USER/deeplearning-workshop-2019:/home/jovyan/ nvaitc/ai-lab
 ```
 
 This will output a chunk of output in the Terminal. Take note of the last few lines.
