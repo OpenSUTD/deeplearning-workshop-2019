@@ -46,7 +46,7 @@ docker pull nvaitc/ai-lab:latest
 #### 3. Download the code labs
 
 ```bash
-git clone https://github.com/OpenSUTD/deeplearning-workshop-2019
+git clone --depth 1 https://github.com/OpenSUTD/deeplearning-workshop-2019
 # take note of where you cloned the files to!
 # we will assume it's at /home/USER/deeplearning-workshop-2019
 ```
