@@ -19,6 +19,8 @@ If you have a workstation or cloud instance set up for Deep Learning, our recomm
 
 ![](images/colab_1.jpg)
 
+Note: currently the notebooks do not fully work in Colab.
+
 ### B. Workstation / Cloud Instance
 
 #### 1. Setting up CUDA, NVIDIA drivers, and Docker
