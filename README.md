@@ -8,7 +8,7 @@ If you do not already have a workstation set up for Deep Learning, you may want 
 
 If you have a workstation or cloud instance set up for Deep Learning, our recommended way to run the notebooks is to run it in a Docker container `nvaitc/ai-lab`. For now, we will also assume that you are using Ubuntu 16.04 or 18.04, and have an NVIDIA GPU card in your workstation/instance. 
 
-![](https://img.shields.io/github/license/opensutd/deeplearning-workshop-2019.svg) [![GitHub issues](https://img.shields.io/github/issues/OpenSUTD/deeplearning-workshop-2019.svg)](https://github.com/OpenSUTD/deeplearning-workshop-2019/issues)
+![](https://img.shields.io/github/license/opensutd/deeplearning-workshop-2019.svg) [![GitHub issues](https://img.shields.io/github/issues/OpenSUTD/deeplearning-workshop-2019.svg)](https://github.com/OpenSUTD/deeplearning-workshop-2019/issues) ![](https://img.shields.io/github/repo-size/opensutd/deeplearning-workshop-2019.svg)
 
 ## Using the Notebooks
 
