@@ -1,12 +1,14 @@
 ![](images/dl-iap-header.jpg)
 
-This repository contains the material for the Deep Learning Workshop conducted in the IAP 2019. The slides are also available at on [Google Drive](bit.ly/dl-iap-1) 
+This repository contains the material for the Deep Learning Workshop conducted in the IAP 2019. The slides are also available at on [Google Drive](bit.ly/dl-iap-1). 
+
+Only for workshop duration, you may use our Lab environment to run the notebooks. [Instructions](https://docs.google.com/presentation/d/1Vb_eSv2taZk4SUpa1Se7SVWEwklLzY1xHI2jITaCqX0/edit?usp=sharing)
 
 If you do not already have a workstation set up for Deep Learning, you may want to run the notebooks in [Google Colab](https://colab.research.google.com/). The instructions are not currently complete, but we will add more information in time.
 
 If you have a workstation or cloud instance set up for Deep Learning, our recommended way to run the notebooks is to run it in a Docker container `nvaitc/ai-lab`. For now, we will also assume that you are using Ubuntu 16.04 or 18.04, and have an NVIDIA GPU card in your workstation/instance. 
 
-![](https://img.shields.io/github/license/opensutd/deeplearning-workshop-2019.svg) [![GitHub issues](https://img.shields.io/github/issues/OpenSUTD/deeplearning-workshop-2019.svg)](https://github.com/OpenSUTD/deeplearning-workshop-2019/issues)
+![](https://img.shields.io/github/license/opensutd/deeplearning-workshop-2019.svg) [![GitHub issues](https://img.shields.io/github/issues/OpenSUTD/deeplearning-workshop-2019.svg)](https://github.com/OpenSUTD/deeplearning-workshop-2019/issues) ![](https://img.shields.io/github/repo-size/opensutd/deeplearning-workshop-2019.svg)
 
 ## Using the Notebooks
 
@@ -18,6 +20,8 @@ If you have a workstation or cloud instance set up for Deep Learning, our recomm
 2. Enter in the URL of this repository as follows and simply select which notebook you wish to open
 
 ![](images/colab_1.jpg)
+
+Note: currently the notebooks do not fully work in Colab.
 
 ### B. Workstation / Cloud Instance
 
@@ -46,7 +50,7 @@ docker pull nvaitc/ai-lab:latest
 #### 3. Download the code labs
 
 ```bash
-git clone https://github.com/OpenSUTD/deeplearning-workshop-2019
+git clone --depth 1 https://github.com/OpenSUTD/deeplearning-workshop-2019
 # take note of where you cloned the files to!
 # we will assume it's at /home/USER/deeplearning-workshop-2019
 ```
