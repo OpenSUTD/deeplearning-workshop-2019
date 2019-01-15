@@ -1,6 +1,8 @@
 ![](images/dl-iap-header.jpg)
 
-This repository contains the material for the Deep Learning Workshop conducted in the IAP 2019. The slides are also available at on [Google Drive](bit.ly/dl-iap-1) 
+This repository contains the material for the Deep Learning Workshop conducted in the IAP 2019. The slides are also available at on [Google Drive](bit.ly/dl-iap-1). 
+
+Only for workshop duration, you may use our Lab environment to run the notebooks. [Instructions](https://docs.google.com/presentation/d/1Vb_eSv2taZk4SUpa1Se7SVWEwklLzY1xHI2jITaCqX0/edit?usp=sharing)
 
 If you do not already have a workstation set up for Deep Learning, you may want to run the notebooks in [Google Colab](https://colab.research.google.com/). The instructions are not currently complete, but we will add more information in time.
 
