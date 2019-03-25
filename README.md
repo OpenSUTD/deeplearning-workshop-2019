@@ -14,12 +14,23 @@ If you have a workstation or cloud instance set up for Deep Learning, our recomm
 
 #### 1. Open Notebook in Colab
 
-1. Proceed to [Google Colab](https://colab.research.google.com) and click the "GitHub" tab.
-2. Enter in the URL of this repository as follows and simply select which notebook you wish to open
+* Proceed to [Google Colab](https://colab.research.google.com) and click the "GitHub" tab.
+* Enter in the URL of this repository as follows and simply select which notebook you wish to open
 
 ![](images/colab_1.jpg)
 
-The notebooks should be able to run just fine, do open an issue if you face problems.
+* Change runtime type to GPU
+
+![](images/colab_2.jpg)
+
+![](images/colab_3.jpg)
+
+* On the menu bar, go to **Runtime > Run All**
+
+![](images/colab_4.jpg)
+
+* Accept the usual warning, and you will be able to run the notebook
+* All the notebooks should be able to run just fine, do open an issue if you face problems.
 
 ### B. Workstation / Cloud Instance
 
